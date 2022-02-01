@@ -117,6 +117,19 @@ p {
   color: var(--color-heading);
 }
 
+@media screen and (min-width: 768px) {
+  .sidelink {
+    padding: 0;
+    margin: 0 2rem 0 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sidelink {
+    padding: 0;
+    margin: 0 2rem 3vh 2rem;
+  }
+}
+
 /* Cards */
 
 .card {
@@ -372,7 +385,7 @@ p {
 .sidebar__logo {
   display: flex;
   height: 4vw;
-  padding: 2rem 2rem 0 2rem;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .sidebar .icon {
